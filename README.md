@@ -11,31 +11,12 @@ Os algoritmos foram implementados utilizando apenas vetores (int[]) e laços nat
 
 Detalhes da implementação
 
-
 Bubble Sort: com otimização de parada antecipada caso uma passagem não realize trocas.
 Insertion Sort: implementação clássica com deslocamento de elementos.
 Quick Sort: recursivo, com partição de Lomuto, utilizando o último elemento de cada partição como pivô.
 Leitura dos CSVs: feita com BufferedReader em duas passadas (conta linhas, depois preenche o vetor), sem Scanner/regex.
 Medição de tempo: cada algoritmo é executado 5 vezes sobre uma cópia independente dos dados originais; o tempo reportado é a média (em milissegundos).
 Validação: após cada execução, verifica-se se o vetor resultante está corretamente ordenado.
-
-
-Estrutura do repositório
-
-.
-├── ComparacaoOrdenacao.java       # Código-fonte principal
-├── datasets/                      # Conjuntos de dados (CSV)
-│   ├── aleatorio_100.csv
-│   ├── aleatorio_1000.csv
-│   ├── aleatorio_10000.csv
-│   ├── crescente_100.csv
-│   ├── crescente_1000.csv
-│   ├── crescente_10000.csv
-│   ├── decrescente_100.csv
-│   ├── decrescente_1000.csv
-│   └── decrescente_10000.csv
-├── relatorio_comparacao_ordenacao.pdf   # Relatório com tabelas, gráfico e análise
-└── README.md
 
 Como executar
 
